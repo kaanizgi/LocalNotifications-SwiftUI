@@ -11,6 +11,7 @@
 		FFA17B7F27F5B74B00EC609B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA17B7E27F5B74B00EC609B /* ContentView.swift */; };
 		FFA17B8127F5B74B00EC609B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA17B8027F5B74B00EC609B /* Assets.xcassets */; };
 		FFA17B8427F5B74B00EC609B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA17B8327F5B74B00EC609B /* Preview Assets.xcassets */; };
+		FFA17B8B27F5B76200EC609B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA17B8A27F5B76200EC609B /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FFA17B7E27F5B74B00EC609B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFA17B8027F5B74B00EC609B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFA17B8327F5B74B00EC609B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFA17B8A27F5B76200EC609B /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		FFA17B7B27F5B74B00EC609B /* LocalNotifications-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFA17B8A27F5B76200EC609B /* NotificationManager.swift */,
 				FFA17B7C27F5B74B00EC609B /* LocalNotifications_SwiftUIApp.swift */,
 				FFA17B7E27F5B74B00EC609B /* ContentView.swift */,
 				FFA17B8027F5B74B00EC609B /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA17B8B27F5B76200EC609B /* NotificationManager.swift in Sources */,
 				FFA17B7F27F5B74B00EC609B /* ContentView.swift in Sources */,
 				FFA17B7D27F5B74B00EC609B /* LocalNotifications_SwiftUIApp.swift in Sources */,
 			);
